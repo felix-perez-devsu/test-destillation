@@ -1,0 +1,19 @@
+{
+  "name": "test-destillation",
+  "version": "1.0.0",
+  "description": "Proyecto simple de TypeScript usando patrón Strategy",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node main.ts"
+  },
+  "keywords": ["typescript", "strategy-pattern"],
+  "author": "Felix Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
