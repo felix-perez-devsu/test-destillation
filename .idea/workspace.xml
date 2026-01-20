@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02c2bfca-fb90-4ea3-a8a5-8f3405d83d4f" name="Changes" comment="enqueue the chunking of the completed distillation">
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/distillation/distiller/kit/standard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/distillation/distiller/kit/standard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/knowledge-source/file-validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/knowledge-source/file-validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/knowledge-source/github.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/knowledge-source/github.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource-repository/flat-neo4j.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource-repository/flat-neo4j.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource-repository/neo4j-encoder-decoder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource-repository/neo4j-encoder-decoder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/creators/github-builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/creators/github-builder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/creators/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/creators/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/creators/supabase-builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/creators/supabase-builder.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="distillation-chunker" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2yuhtSNKfhtxfUxTDHkIfk9z8nM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Deno.Deno TEST: .executor": "Debug",
+    "Deno.Deno: chat.ts.executor": "Debug",
+    "Deno.Deno: implementation.test.ts.executor": "Run",
+    "Deno.Deno: index.ts.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "deno.use.library": "true",
+    "git-widget-placeholder": "deprecate-distillation-status",
+    "last_opened_file_path": "/Volumes/Devsu - Extra Space/app-scanner/core/services/neo4j",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/services/neo4j" />
+      <recent name="$PROJECT_DIR$/architect" />
+      <recent name="$PROJECT_DIR$/core/services/neo4j/bk" />
+      <recent name="$PROJECT_DIR$/core/scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/neo4j/migrations" />
+      <recent name="$PROJECT_DIR$/core/services/neo4j" />
+      <recent name="$PROJECT_DIR$/core/packages/lib/chat/conversation" />
+      <recent name="$PROJECT_DIR$/web/src/components/chat/shared/indicators" />
+      <recent name="$PROJECT_DIR$/web/src/components/chat/shared/messages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Deno.Deno TEST: ">
+    <configuration name="Deno TEST: " type="DenoConfigurationType" inputPath="$PROJECT_DIR$/core/scripts/chat.ts" programParameters="run --inspect-brk=127.0.0.1:9229 -A -c deno.json --env-file=.env" workingDirectory="$PROJECT_DIR$/core">
+      <option name="envs">
+        <entry key="PORT" value="8000" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Deno: chat.ts" type="DenoConfigurationType" nameIsGenerated="true" inputPath="$PROJECT_DIR$/core/scripts/chat.ts" programParameters="run --inspect-wait --env-file=.env --watch -A" workingDirectory="$PROJECT_DIR$/core">
+      <method v="2" />
+    </configuration>
+    <configuration name="init" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8000/git-provider/github/init">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Deno.Deno TEST: " />
+      <item itemvalue="Deno.Deno: chat.ts" />
+      <item itemvalue="JavaScript Debug.init" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.init" />
+        <item itemvalue="JavaScript Debug.init" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02c2bfca-fb90-4ea3-a8a5-8f3405d83d4f" name="Changes" comment="" />
+      <created>1750690579959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750690579959</updated>
+      <workItem from="1750690581177" duration="4872000" />
+      <workItem from="1750701029065" duration="18546000" />
+      <workItem from="1750786100914" duration="16868000" />
+      <workItem from="1750863846956" duration="29486000" />
+      <workItem from="1750900968824" duration="37000" />
+      <workItem from="1750949348623" duration="17018000" />
+      <workItem from="1750981481811" duration="71000" />
+      <workItem from="1751034104941" duration="26489000" />
+      <workItem from="1751162225848" duration="572000" />
+      <workItem from="1751293551267" duration="16964000" />
+      <workItem from="1751318060778" duration="9125000" />
+      <workItem from="1751376270374" duration="8178000" />
+      <workItem from="1751387035770" duration="18355000" />
+      <workItem from="1751467680773" duration="21909000" />
+      <workItem from="1751511058455" duration="64091000" />
+      <workItem from="1751937678507" duration="15435000" />
+      <workItem from="1752026770696" duration="36573000" />
+      <workItem from="1752159446254" duration="4939000" />
+      <workItem from="1752175122248" duration="16004000" />
+      <workItem from="1752245550617" duration="21474000" />
+      <workItem from="1752504671525" duration="3384000" />
+      <workItem from="1752511258090" duration="19561000" />
+      <workItem from="1752596085409" duration="15870000" />
+      <workItem from="1752624870708" duration="25000" />
+      <workItem from="1753113690834" duration="10000" />
+      <workItem from="1753114267602" duration="47314000" />
+      <workItem from="1753228407483" duration="38000" />
+      <workItem from="1753280503427" duration="27205000" />
+      <workItem from="1753377579941" duration="15092000" />
+      <workItem from="1753397800013" duration="139000" />
+      <workItem from="1754602069541" duration="175000" />
+      <workItem from="1754603638735" duration="823000" />
+      <workItem from="1754605557126" duration="930000" />
+      <workItem from="1754606593763" duration="1121000" />
+      <workItem from="1754607912785" duration="5173000" />
+      <workItem from="1755003285676" duration="21000" />
+      <workItem from="1755010223742" duration="26086000" />
+      <workItem from="1755126066241" duration="523000" />
+      <workItem from="1755126900498" duration="64000" />
+      <workItem from="1755183441875" duration="35884000" />
+      <workItem from="1755284849361" duration="428000" />
+      <workItem from="1755285409451" duration="393000" />
+      <workItem from="1755285944367" duration="249000" />
+      <workItem from="1755286301963" duration="4543000" />
+      <workItem from="1755292052874" duration="804000" />
+      <workItem from="1755292925316" duration="11159000" />
+      <workItem from="1755305593549" duration="2257000" />
+      <workItem from="1755539975840" duration="18189000" />
+      <workItem from="1755559880847" duration="7000" />
+      <workItem from="1755559992703" duration="79000" />
+      <workItem from="1755623083905" duration="19594000" />
+      <workItem from="1755647867129" duration="112000" />
+      <workItem from="1755709010575" duration="49536000" />
+      <workItem from="1755875221226" duration="19906000" />
+      <workItem from="1756052388932" duration="10786000" />
+      <workItem from="1756152110914" duration="14496000" />
+      <workItem from="1756243499777" duration="69295000" />
+      <workItem from="1756484483128" duration="19271000" />
+      <workItem from="1756738932177" duration="18785000" />
+      <workItem from="1756827415845" duration="21558000" />
+      <workItem from="1756913224518" duration="15005000" />
+      <workItem from="1757017582844" duration="5995000" />
+      <workItem from="1757355142213" duration="80637000" />
+      <workItem from="1757630840909" duration="30243000" />
+      <workItem from="1757964897076" duration="7810000" />
+      <workItem from="1757973726962" duration="10546000" />
+      <workItem from="1758035411227" duration="30390000" />
+      <workItem from="1758077097384" duration="39466000" />
+      <workItem from="1758207093255" duration="2836000" />
+      <workItem from="1758222076114" duration="16384000" />
+      <workItem from="1758294337863" duration="15283000" />
+      <workItem from="1758558121990" duration="5857000" />
+      <workItem from="1758642495468" duration="3046000" />
+      <workItem from="1758648940170" duration="13198000" />
+      <workItem from="1758663248546" duration="9000" />
+      <workItem from="1758663274586" duration="24813000" />
+      <workItem from="1758747756771" duration="7954000" />
+      <workItem from="1758811995818" duration="30956000" />
+      <workItem from="1758848782527" duration="29162000" />
+      <workItem from="1759161535112" duration="41162000" />
+      <workItem from="1759331520095" duration="26254000" />
+      <workItem from="1759413805981" duration="34267000" />
+      <workItem from="1759762252400" duration="20726000" />
+      <workItem from="1759790998491" duration="21516000" />
+      <workItem from="1759891597704" duration="31000" />
+      <workItem from="1759935906791" duration="20207000" />
+      <workItem from="1759969099408" duration="672000" />
+      <workItem from="1760476956176" duration="3312000" />
+      <workItem from="1760501477622" duration="613000" />
+      <workItem from="1760538877104" duration="70179000" />
+      <workItem from="1760656295003" duration="304000" />
+      <workItem from="1760716052971" duration="14541000" />
+      <workItem from="1760736518743" duration="64000" />
+      <workItem from="1760977424589" duration="19358000" />
+      <workItem from="1761059343785" duration="28322000" />
+      <workItem from="1761155831057" duration="14221000" />
+      <workItem from="1761172435731" duration="107000" />
+      <workItem from="1761173197262" duration="843000" />
+      <workItem from="1761235427083" duration="13854000" />
+      <workItem from="1761319329892" duration="19633000" />
+      <workItem from="1761575953357" duration="22709000" />
+      <workItem from="1761613693448" duration="912000" />
+      <workItem from="1761667130147" duration="16892000" />
+      <workItem from="1761751920792" duration="15252000" />
+      <workItem from="1761791011839" duration="40000" />
+      <workItem from="1761838243386" duration="53095000" />
+      <workItem from="1762790049012" duration="4524000" />
+      <workItem from="1762802565800" duration="8509000" />
+      <workItem from="1762873283503" duration="16388000" />
+      <workItem from="1762897248445" duration="3766000" />
+      <workItem from="1762958855866" duration="209000" />
+      <workItem from="1762963298972" duration="15836000" />
+      <workItem from="1762985136460" duration="8000" />
+      <workItem from="1763057653280" duration="7224000" />
+      <workItem from="1763070638598" duration="605000" />
+      <workItem from="1763072440494" duration="605000" />
+      <workItem from="1763132143085" duration="118000" />
+      <workItem from="1763140327445" duration="15863000" />
+      <workItem from="1763238202232" duration="10393000" />
+      <workItem from="1763397346387" duration="12417000" />
+      <workItem from="1763480730713" duration="19851000" />
+      <workItem from="1763562493317" duration="25000" />
+      <workItem from="1763572989386" duration="19860000" />
+      <workItem from="1763665101678" duration="15954000" />
+      <workItem from="1763736633230" duration="21869000" />
+      <workItem from="1764002931284" duration="16531000" />
+      <workItem from="1764089302541" duration="12445000" />
+      <workItem from="1764173599861" duration="19261000" />
+      <workItem from="1764220365988" duration="15444000" />
+      <workItem from="1764297316004" duration="4304000" />
+      <workItem from="1764343168551" duration="18794000" />
+      <workItem from="1764612641156" duration="40166000" />
+      <workItem from="1764782045549" duration="12023000" />
+      <workItem from="1764800058379" duration="38666000" />
+      <workItem from="1765205425411" duration="21921000" />
+      <workItem from="1765305058965" duration="17173000" />
+      <workItem from="1765336700514" duration="42311000" />
+      <workItem from="1765551825265" duration="24741000" />
+      <workItem from="1765810054804" duration="92682000" />
+      <workItem from="1766157867799" duration="4621000" />
+      <workItem from="1766587056420" duration="66000" />
+      <workItem from="1767625533478" duration="23354000" />
+      <workItem from="1767706340640" duration="81949000" />
+      <workItem from="1767986832750" duration="63000" />
+      <workItem from="1767987659264" duration="8637000" />
+      <workItem from="1767997214811" duration="20922000" />
+      <workItem from="1768329290652" duration="10652000" />
+      <workItem from="1768398317812" duration="26590000" />
+      <workItem from="1768493551850" duration="11111000" />
+      <workItem from="1768573990127" duration="14114000" />
+      <workItem from="1768927588796" duration="2010000" />
+      <workItem from="1768929679265" duration="7274000" />
+    </task>
+    <task id="LOCAL-00001" summary="distillation consumers">
+      <option name="closed" value="true" />
+      <created>1758081819800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758081819800</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove unused">
+      <option name="closed" value="true" />
+      <created>1758081830663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758081830663</updated>
+    </task>
+    <task id="LOCAL-00003" summary="distillation chunker implementation">
+      <option name="closed" value="true" />
+      <created>1758084176457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758084176457</updated>
+    </task>
+    <task id="LOCAL-00004" summary="draft">
+      <option name="closed" value="true" />
+      <created>1758126063524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758126063524</updated>
+    </task>
+    <task id="LOCAL-00005" summary="enqueue the chunking of the completed distillation">
+      <option name="closed" value="true" />
+      <created>1758132681362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758132681362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="distillation consumers" />
+    <MESSAGE value="remove unused" />
+    <MESSAGE value="distillation chunker implementation" />
+    <MESSAGE value="draft" />
+    <MESSAGE value="enqueue the chunking of the completed distillation" />
+    <option name="LAST_COMMIT_MESSAGE" value="enqueue the chunking of the completed distillation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/core/packages/lib/distiller/validators/c4Diagram/c4-diagram-validator.ts</url>
+          <line>94</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
