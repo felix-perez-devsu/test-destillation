@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c2bfca-fb90-4ea3-a8a5-8f3405d83d4f" name="Changes" comment="enqueue the chunking of the completed distillation" />
+    <list default="true" id="02c2bfca-fb90-4ea3-a8a5-8f3405d83d4f" name="Changes" comment="enqueue the chunking of the completed distillation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/prettier",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -269,7 +271,7 @@
       <workItem from="1768573990127" duration="14114000" />
       <workItem from="1768927588796" duration="2010000" />
       <workItem from="1768929679265" duration="7274000" />
-      <workItem from="1770326902675" duration="379000" />
+      <workItem from="1770326902675" duration="2301000" />
     </task>
     <task id="LOCAL-00001" summary="distillation consumers">
       <option name="closed" value="true" />
