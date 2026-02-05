@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c2bfca-fb90-4ea3-a8a5-8f3405d83d4f" name="Changes" comment="enqueue the chunking of the completed distillation">
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/distillation/distiller/kit/standard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/distillation/distiller/kit/standard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/knowledge-source/file-validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/knowledge-source/file-validator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/knowledge-source/github.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/knowledge-source/github.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource-repository/flat-neo4j.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource-repository/flat-neo4j.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource-repository/neo4j-encoder-decoder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource-repository/neo4j-encoder-decoder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/base.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/creators/github-builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/creators/github-builder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/creators/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/creators/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/packages/lib/resource/creators/supabase-builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/packages/lib/resource/creators/supabase-builder.ts" afterDir="false" />
-    </list>
+    <list default="true" id="02c2bfca-fb90-4ea3-a8a5-8f3405d83d4f" name="Changes" comment="enqueue the chunking of the completed distillation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +18,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "felixmpa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/felix-perez-devsu/test-destillation.git",
+    "accountId": "7a6ff450-7f31-4a39-9a14-0fff15d42503"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -37,29 +39,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Deno.Deno TEST: .executor&quot;: &quot;Debug&quot;,
-    &quot;Deno.Deno: chat.ts.executor&quot;: &quot;Debug&quot;,
-    &quot;Deno.Deno: implementation.test.ts.executor&quot;: &quot;Run&quot;,
-    &quot;Deno.Deno: index.ts.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;deno.use.library&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;deprecate-distillation-status&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Devsu - Extra Space/app-scanner/core/services/neo4j&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Deno.Deno TEST: .executor": "Debug",
+    "Deno.Deno: chat.ts.executor": "Debug",
+    "Deno.Deno: implementation.test.ts.executor": "Run",
+    "Deno.Deno: index.ts.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "deno.use.library": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/Devsu - Extra Space/devsu/test-destillation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Volumes/Devsu - Extra Space/app-scanner/web/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/services/neo4j" />
@@ -267,6 +269,7 @@
       <workItem from="1768573990127" duration="14114000" />
       <workItem from="1768927588796" duration="2010000" />
       <workItem from="1768929679265" duration="7274000" />
+      <workItem from="1770326902675" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="distillation consumers">
       <option name="closed" value="true" />
