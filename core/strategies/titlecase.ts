@@ -1,6 +1,6 @@
 // Estrategia C: Procesar mensajes en Title Case
-import { MessageProcessor } from '../shared';
-import { validateMessage } from '../shared/message.validator';
+import { MessageProcessor } from '../../shared';
+import { validateMessage } from '../../shared/message.validator';
 
 export class TitleCaseProcessor implements MessageProcessor {
   process(message: string): string {
