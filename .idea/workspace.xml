@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="02c2bfca-fb90-4ea3-a8a5-8f3405d83d4f" name="Changes" comment="enqueue the chunking of the completed distillation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/processors/text/capitalize.processor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/b.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/c.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/c.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validators/message.validator.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +275,7 @@
       <workItem from="1768573990127" duration="14114000" />
       <workItem from="1768927588796" duration="2010000" />
       <workItem from="1768929679265" duration="7274000" />
-      <workItem from="1770326902675" duration="6452000" />
+      <workItem from="1770326902675" duration="7293000" />
     </task>
     <task id="LOCAL-00001" summary="distillation consumers">
       <option name="closed" value="true" />

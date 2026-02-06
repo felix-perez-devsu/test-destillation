@@ -1,6 +1,6 @@
 // Archivo principal que usa las estrategias
 import { MessageContext } from './shared';
-import { ReverseProcessor } from './core/b';
+import { ReverseProcessor } from './core/reverse';
 
 function main() {
   const message = "Hola mundo desde TypeScript";
