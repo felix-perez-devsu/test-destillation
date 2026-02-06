@@ -1,5 +1,5 @@
 // Archivo principal que usa las estrategias
-import { MessageContext } from './shared';
+import { MessageContext } from './common';
 import { ReverseProcessor } from './core/reverse';
 
 function main() {

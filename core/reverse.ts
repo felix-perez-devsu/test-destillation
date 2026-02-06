@@ -1,5 +1,5 @@
 // Estrategia B: Procesar mensajes al revés
-import { MessageProcessor } from '../shared';
+import { MessageProcessor } from '../common';
 
 export class ReverseProcessor implements MessageProcessor {
   process(message: string): string {
