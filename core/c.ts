@@ -1,6 +1,5 @@
 // Estrategia C: Procesar mensajes en Title Case
 import { MessageProcessor } from '../shared';
-import { addTag } from '../common/utils';
 import { validateMessage } from '../validators/message.validator';
 
 export class TitleCaseProcessor implements MessageProcessor {
@@ -13,7 +12,7 @@ export class TitleCaseProcessor implements MessageProcessor {
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
 
-    return addTag('TITLE', title);
+    return `[TITLE] ${title}`;
   }
 
   getName(): string {
